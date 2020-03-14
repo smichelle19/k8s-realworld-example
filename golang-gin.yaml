@@ -50,7 +50,7 @@ spec:
       #           operator: DoesNotExist
       containers:
         - name: golang-gin
-          image: gcr.io/my-gcp-221201/golang-gin:latest
+          image: gcr.io/kubernetes-271106/golang-gin:latest
           imagePullPolicy: Always
           env:
             - name: LINES

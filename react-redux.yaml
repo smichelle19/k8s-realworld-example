@@ -50,7 +50,7 @@ spec:
       #           operator: DoesNotExist
       containers:
         - name: react-redux
-          image: gcr.io/my-gcp-221201/react-redux:latest
+          image: gcr.io/kubernetes-271106/react-redux:latest
           imagePullPolicy: Always
           env:
             - name: LINES
